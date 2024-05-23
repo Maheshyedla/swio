@@ -1,4 +1,7 @@
-import React from 'react'
+import React from 'react';
+import img1 from "../assets/1st song.jpg";
+import img2 from "../assets/2 song.jpg";
+import img3 from "../assets/3rd song.jpg";
 
 const sharedClasses = {
   gradientBg: 'bg-gradient-to-r from-green-400 to-blue-500',
@@ -37,17 +40,17 @@ const MusicSection = () => {
       <MusicCard
         title="Eternal Sunshine"
         artist="Forgotten Feels<br>Slow Magic"
-        imageUrl="https://placehold.co/300x200"
+        imageUrl={img1}
       />
       <MusicCard
         title="Bunny Is a Rider"
         artist="Desire, I Want to Turn Into You<br>Caroline Polachek"
-        imageUrl="https://placehold.co/300x200"
+        imageUrl={img2}
       />
       <MusicCard
         title="Are You Listening"
         artist="How To Be Human<br>Chelsea Cutler"
-        imageUrl="https://placehold.co/300x200"
+        imageUrl={img3}
       />
     </div>
   )

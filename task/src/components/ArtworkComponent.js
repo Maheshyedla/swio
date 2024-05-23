@@ -1,4 +1,5 @@
 import React from 'react';
+import img from "../assets/share.jpg";
 
 const sharedClasses = {
   button: 'w-8 h-8 bg-zinc-200 dark:bg-zinc-700 rounded-md',
@@ -19,7 +20,7 @@ const ArtworkComponent = () => {
   return (
     <div className={`${sharedClasses.flexCol} ${sharedClasses.itemsCenter} md:${sharedClasses.itemsStart} p-6 ${sharedClasses.spaceY} md:${sharedClasses.spaceY} md:${sharedClasses.spaceX}`}>
       <div className={`${sharedClasses.flexCol} ${sharedClasses.itemsCenter} md:${sharedClasses.itemsStart}`}>
-        <img src="https://placehold.co/80x80" alt="Artwork Icon" className="w-20 h-20 mb-4" />
+        <img src={img} alt="Artwork Icon" className="w-20 h-20 mb-4" />
         <h2 className={`${sharedClasses.textZincBold} ${sharedClasses.mb4}`}>Artwork</h2>
         <p className={`${sharedClasses.textZinc} ${sharedClasses.mb4}`}>
           Scale artwork all the way up or all the way down. Round the corners or leave them square.

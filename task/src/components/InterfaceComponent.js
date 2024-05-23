@@ -1,4 +1,5 @@
 import React from 'react';
+import img1 from "../assets/setting.jpg";
 
 const sharedClasses = {
   flexCol: "flex flex-col",
@@ -28,7 +29,7 @@ const InterfaceComponent = () => {
   return (
     <div className={`${sharedClasses.flexCol} ${sharedClasses.flexRow} ${sharedClasses.itemsCenter} ${sharedClasses.p6} ${sharedClasses.spaceY6} ${sharedClasses.mdSpaceY0} ${sharedClasses.mdSpaceX6}`}>
       <div className={`${sharedClasses.flexCol} ${sharedClasses.itemsCenter} ${sharedClasses.textCenter} ${sharedClasses.mdItemsStart} ${sharedClasses.mdTextLeft}`}>
-        <img src="https://placehold.co/100x100" alt="Interface Icons" className={sharedClasses.mb4} />
+        <img src={img1} alt="Interface Icons" className={sharedClasses.mb4} />
         <h2 className={`${sharedClasses.text2xl} ${sharedClasses.fontBold} ${sharedClasses.mb4}`}>Interface</h2>
         <p className={`${sharedClasses.textZinc600} ${sharedClasses.darkTextZinc400} ${sharedClasses.mb2}`}>Customize the layout, alignment and position to fit your setup.</p>
         <p className={`${sharedClasses.textZinc600} ${sharedClasses.darkTextZinc400}`}>Show and hide playback controls. Add a backdrop layer and customize it.</p>

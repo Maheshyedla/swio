@@ -1,5 +1,6 @@
 import React from 'react';
-import img1 from "../assets/ThemeUI.png";
+import img1 from "../assets/vid.jpg";
+import img2 from "../assets/share.jpg";
 
 const sharedClasses = {
   bgWhite: 'bg-white',
@@ -47,7 +48,7 @@ const CustomizationSection = () => {
         <ThemeCard
           title="Shareable"
           description="Export your themes and share them with friends using the handy new Sleeve Theme file format. Install themes from anywhere with a double-click or a drag and drop."
-          imageUrl="https://placehold.co/200x100"
+          imageUrl={img2}
           altText="Share theme"
         />
       </div>

@@ -1,4 +1,6 @@
 import React from 'react';
+import img1 from "../assets/setting.jpg";
+import img2 from "../assets/hook.jpg";
 
 const sharedClasses = {
   flex: 'flex',
@@ -20,7 +22,7 @@ const SettingsComponent = () => {
     <div className={`${sharedClasses.flexCol} ${sharedClasses.flexRow} ${sharedClasses.itemsCenter} ${sharedClasses.padding} ${sharedClasses.spaceY} ${sharedClasses.spaceX}`}>
       <div className={sharedClasses.flexShrink}>
         <img
-          src="https://placehold.co/100x100"
+          src={img1}
           alt="Settings Icon"
           className={sharedClasses.image}
         />
@@ -39,7 +41,7 @@ const SettingsComponent = () => {
       </div>
       <div className={sharedClasses.flexShrink}>
         <img
-          src="https://placehold.co/300x500"
+          src={img2}
           alt="Settings Screenshot"
           className={sharedClasses.roundedShadow}
         />

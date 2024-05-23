@@ -1,5 +1,5 @@
 import React from 'react';
-import img from "../assets/shelves.png";
+import img from "../assets/hook.jpg";
 
 const sharedClasses = {
   bgWhite: 'bg-white',
@@ -55,7 +55,7 @@ const SleeveComponent = () => {
       </div>
       <p className={`mt-4 ${sharedClasses.textSm} ${sharedClasses.textZinc500} ${sharedClasses.textZinc400}`}>No subscriptions. No in-app purchases. Requires macOS 11 Big Sur or later.</p>
       <div className={`mt-8 ${sharedClasses.bgZinc100} ${sharedClasses.bgDarkZinc800} ${sharedClasses.p4} ${sharedClasses.roundedLG} ${sharedClasses.inlineFlex} ${sharedClasses.flexItemsCenter} ${sharedClasses.spaceX2}`}>
-        <img src="img" alt=" " />
+        <img src={img} alt=" " />
         <p className={`${sharedClasses.textZinc300}`}>Now with <span className={sharedClasses.fontBold}>shelves and a progress bar</span>. See what's new in Sleeve 2.3</p>
       </div>
     </div>

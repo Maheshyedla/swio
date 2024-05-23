@@ -1,23 +1,28 @@
 import logo from './logo.svg';
 import './App.css';
+import SleeveComponent from './components/sleevecomponent';
+import BodyComponent from './components/bodycomponent';
+import CustomizationSection from './components/CustomizationSection';
+import Form from './components/Form';
+import ArtworkComponent from './components/ArtworkComponent';
+import TypographyComponent from './components/TypographyComponent';
+import InterfaceComponent from './components/InterfaceComponent';
+import SettingComponent from './components/SettingComponent';
+import HeadingComponent from './components/HeadingComponent';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <SleeveComponent/>
+    <BodyComponent/>
+    <CustomizationSection/>
+    <Form/>
+    <ArtworkComponent/>
+    <TypographyComponent/>
+    <InterfaceComponent/>
+    <SettingComponent/>
+    <HeadingComponent/>
+      
     </div>
   );
 }

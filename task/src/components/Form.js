@@ -1,4 +1,5 @@
 import React from 'react';
+import img from "../assets/IMG-20240523-WA0013.jpg";
 
 const iconClass = 'w-12 h-12 md:w-16 md:h-16 lg:w-20 lg:h-20 rounded-lg shadow-md';
 
@@ -10,7 +11,7 @@ const Form = () => {
       </p>
       <div className="flex space-x-2 md:space-x-4">
         {[...Array(8)].map((_, index) => (
-          <img key={index} src={`https://placehold.co/50x50`} alt={`icon${index + 1}`} className={iconClass} />
+          <img key={index} src={img} alt={`icon${index + 1}`} className={iconClass} />
         ))}
       </div>
     </div>
